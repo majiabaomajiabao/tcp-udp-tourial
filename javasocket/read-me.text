@@ -1,0 +1,8 @@
+1.准备知识
+
+TCP协议提供面向连接的服务，通过它建立的是可靠连接。Java为TCP协议提供了两个类：Socket类和ServerSocket类。
+example很简单，主要用来观察报文的发送和接收过程。
+
+2.实验目的
+
+tcpdump -n port 20006，了解tcp的三次握手和四次挥手
